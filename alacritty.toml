@@ -1,0 +1,13 @@
+live_config_reload = true
+import = [
+  "~/.config/alacritty/font.toml",
+]
+
+[env]
+RUST_LOG = "info"
+
+[window]
+decorations_theme_variant = "dark"
+
+[selection]
+save_to_clipboard = true
